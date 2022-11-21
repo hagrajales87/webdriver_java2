@@ -43,8 +43,28 @@ public class HomePage {
         return new KeyPressesPage(driver);
     }
 
+    public AlertPage clickAlert(){
+        clickLink("JavaScript Alerts");
+        return new AlertPage(driver);
+    }
+
+    public FileUploadPage clickFileUpload(){
+        clickLink("File Upload");
+        return new FileUploadPage(driver);
+    }
+
     private void clickLink(String linkText){
         driver.findElement(By.linkText(linkText)).click();
+    }
+
+    public ModalPage clickModal(){
+        clickLink("Entry Ad");
+        return new ModalPage(driver);
+    }
+
+    public ContextMenuPage clickContextMenu(){
+        clickLink("Context Menu");
+        return  new ContextMenuPage(driver);
     }
 
 }
