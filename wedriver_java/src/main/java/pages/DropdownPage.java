@@ -18,9 +18,9 @@ public class DropdownPage {
     }
 
     public void selectFromDropDown(String option){
-        //Select dropdownElement = findDropDownElement();
-        //dropdownElement.selectByVisibleText(option);
-        findDropDownElement().selectByVisibleText(option);
+        Select dropdownElement = new Select(driver.findElement(dropdown));
+        dropdownElement.selectByVisibleText(option);
+        //findDropDownElement().selectByVisibleText(option);
     }
 
     public List<String> getSelectedOptions(){

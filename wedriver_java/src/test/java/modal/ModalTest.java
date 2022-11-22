@@ -1,7 +1,6 @@
-package login.modal;
+package modal;
 
 import base.BaseTest;
-import org.checkerframework.framework.qual.AnnotatedFor;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;

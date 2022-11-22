@@ -1,0 +1,13 @@
+pages\AlertPage.class
+pages\LoginPage.class
+pages\ModalPage.class
+pages\HomePage.class
+pages\SecureAreaPage.class
+pages\HoversPage.class
+pages\ContextMenuPage.class
+pages\DropdownPage.class
+org\example\Main.class
+pages\FileUploadPage.class
+pages\HoversPage$FigureCaption.class
+pages\KeyPressesPage.class
+pages\ControlPage.class

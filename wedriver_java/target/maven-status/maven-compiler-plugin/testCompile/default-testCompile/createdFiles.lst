@@ -1,0 +1,10 @@
+base\BaseTest.class
+control\ControlTest.class
+alerts\fileUploadTests.class
+keys\KeysTests.class
+login\LoginTests.class
+login\modal\ModalTest.class
+alerts\alertTest.class
+dropdown\DropdownTest.class
+hover\HoverTest.class
+rightClick\rightClickTest.class

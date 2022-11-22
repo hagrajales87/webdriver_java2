@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="8" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-22T16:31:44 COT" name="Command line suite" finished-at="2022-11-22T16:32:20 COT" duration-ms="35331">
+    <groups>
+    </groups>
+    <test started-at="2022-11-22T16:31:44 COT" name="Command line test" finished-at="2022-11-22T16:32:20 COT" duration-ms="35331">
+      <class name="rightClick.rightClickTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:rightClick.rightClickTest@16aa0a0a]" started-at="2022-11-22T16:32:16 COT" name="setup" finished-at="2022-11-22T16:32:18 COT" duration-ms="1468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:rightClick.rightClickTest@16aa0a0a]" started-at="2022-11-22T16:32:18 COT" name="goHome" finished-at="2022-11-22T16:32:19 COT" duration-ms="1463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testRightClick()[pri:0, instance:rightClick.rightClickTest@16aa0a0a]" started-at="2022-11-22T16:32:19 COT" name="testRightClick" finished-at="2022-11-22T16:32:20 COT" duration-ms="682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRightClick -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rightClick.rightClickTest@16aa0a0a]" started-at="2022-11-22T16:32:20 COT" name="tearDown" finished-at="2022-11-22T16:32:20 COT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- rightClick.rightClickTest -->
+      <class name="dropdown.DropdownTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dropdown.DropdownTest@5af97850]" started-at="2022-11-22T16:31:54 COT" name="setup" finished-at="2022-11-22T16:31:55 COT" duration-ms="1185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:dropdown.DropdownTest@5af97850]" started-at="2022-11-22T16:31:55 COT" name="goHome" finished-at="2022-11-22T16:31:56 COT" duration-ms="1338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testSelectedOption()[pri:0, instance:dropdown.DropdownTest@5af97850]" started-at="2022-11-22T16:31:56 COT" name="testSelectedOption" finished-at="2022-11-22T16:31:57 COT" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectedOption -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dropdown.DropdownTest@5af97850]" started-at="2022-11-22T16:31:57 COT" name="tearDown" finished-at="2022-11-22T16:31:57 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dropdown.DropdownTest -->
+      <class name="alerts.alertTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:alerts.alertTest@12d3a4e9]" started-at="2022-11-22T16:31:44 COT" name="setup" finished-at="2022-11-22T16:31:48 COT" duration-ms="4007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.alertTest@12d3a4e9]" started-at="2022-11-22T16:31:48 COT" name="goHome" finished-at="2022-11-22T16:31:50 COT" duration-ms="1311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testAcceptAlert()[pri:0, instance:alerts.alertTest@12d3a4e9]" started-at="2022-11-22T16:31:50 COT" name="testAcceptAlert" finished-at="2022-11-22T16:31:50 COT" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAcceptAlert -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.alertTest@12d3a4e9]" started-at="2022-11-22T16:31:50 COT" name="goHome" finished-at="2022-11-22T16:31:50 COT" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testGetTextFromAlert()[pri:0, instance:alerts.alertTest@12d3a4e9]" started-at="2022-11-22T16:31:50 COT" name="testGetTextFromAlert" finished-at="2022-11-22T16:31:51 COT" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTextFromAlert -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.alertTest@12d3a4e9]" started-at="2022-11-22T16:31:51 COT" name="goHome" finished-at="2022-11-22T16:31:51 COT" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testSetInputInAlert()[pri:0, instance:alerts.alertTest@12d3a4e9]" started-at="2022-11-22T16:31:51 COT" name="testSetInputInAlert" finished-at="2022-11-22T16:31:51 COT" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetInputInAlert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:alerts.alertTest@12d3a4e9]" started-at="2022-11-22T16:31:51 COT" name="tearDown" finished-at="2022-11-22T16:31:51 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- alerts.alertTest -->
+      <class name="hover.HoverTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:hover.HoverTest@5ef60048]" started-at="2022-11-22T16:31:57 COT" name="setup" finished-at="2022-11-22T16:31:58 COT" duration-ms="1611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:hover.HoverTest@5ef60048]" started-at="2022-11-22T16:31:58 COT" name="goHome" finished-at="2022-11-22T16:32:00 COT" duration-ms="1224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testHoverUser1()[pri:0, instance:hover.HoverTest@5ef60048]" started-at="2022-11-22T16:32:00 COT" name="testHoverUser1" finished-at="2022-11-22T16:32:00 COT" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHoverUser1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hover.HoverTest@5ef60048]" started-at="2022-11-22T16:32:00 COT" name="tearDown" finished-at="2022-11-22T16:32:00 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hover.HoverTest -->
+      <class name="control.ControlTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:control.ControlTest@17c386de]" started-at="2022-11-22T16:31:51 COT" name="setup" finished-at="2022-11-22T16:31:52 COT" duration-ms="1307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:control.ControlTest@17c386de]" started-at="2022-11-22T16:31:52 COT" name="goHome" finished-at="2022-11-22T16:31:54 COT" duration-ms="1204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="controlTest()[pri:0, instance:control.ControlTest@17c386de]" started-at="2022-11-22T16:31:54 COT" name="controlTest" finished-at="2022-11-22T16:31:54 COT" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- controlTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:control.ControlTest@17c386de]" started-at="2022-11-22T16:31:54 COT" name="tearDown" finished-at="2022-11-22T16:31:54 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- control.ControlTest -->
+      <class name="login.modal.ModalTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:login.modal.ModalTest@1d548a08]" started-at="2022-11-22T16:32:00 COT" name="setup" finished-at="2022-11-22T16:32:02 COT" duration-ms="1757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:login.modal.ModalTest@1d548a08]" started-at="2022-11-22T16:32:02 COT" name="goHome" finished-at="2022-11-22T16:32:03 COT" duration-ms="1285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testCloseModal()[pri:0, instance:login.modal.ModalTest@1d548a08]" started-at="2022-11-22T16:32:03 COT" name="testCloseModal" finished-at="2022-11-22T16:32:04 COT" duration-ms="1027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCloseModal -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:login.modal.ModalTest@1d548a08]" started-at="2022-11-22T16:32:04 COT" name="goHome" finished-at="2022-11-22T16:32:05 COT" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testModalContent()[pri:0, instance:login.modal.ModalTest@1d548a08]" started-at="2022-11-22T16:32:05 COT" name="testModalContent" finished-at="2022-11-22T16:32:10 COT" duration-ms="5561" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (7f157aac8e708f8a4772f0b880e2f574)] -> css selector: .modal-body p] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\HECTOR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64686}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64686/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f157aac8e708f8a4772f0b880e2f574]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (7f157aac8e708f8a4772f0b880e2f574)] -> css selector: .modal-body p] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\HECTOR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64686}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64686/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f157aac8e708f8a4772f0b880e2f574
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at pages.ModalPage.getModalText(ModalPage.java:37)
+at login.modal.ModalTest.testModalContent(ModalTest.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testModalContent -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:login.modal.ModalTest@1d548a08]" started-at="2022-11-22T16:32:10 COT" name="goHome" finished-at="2022-11-22T16:32:10 COT" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testModalTitle()[pri:0, instance:login.modal.ModalTest@1d548a08]" started-at="2022-11-22T16:32:10 COT" name="testModalTitle" finished-at="2022-11-22T16:32:16 COT" duration-ms="5600" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (7f157aac8e708f8a4772f0b880e2f574)] -> css selector: .modal h3] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\HECTOR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64686}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64686/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f157aac8e708f8a4772f0b880e2f574]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (7f157aac8e708f8a4772f0b880e2f574)] -> css selector: .modal h3] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\HECTOR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64686}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64686/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f157aac8e708f8a4772f0b880e2f574
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at pages.ModalPage.getModalTitle(ModalPage.java:31)
+at login.modal.ModalTest.testModalTitle(ModalTest.java:15)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testModalTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:login.modal.ModalTest@1d548a08]" started-at="2022-11-22T16:32:16 COT" name="tearDown" finished-at="2022-11-22T16:32:16 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- login.modal.ModalTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 
 public class KeysTests extends BaseTest {
-/*
+
     @Test
     public  void testBackspace(){
         var keyPage = homePage.clickKeyPresses();
@@ -16,7 +16,7 @@ public class KeysTests extends BaseTest {
         assertEquals(keyPage.getResult(), "You entered: BACK_SPACE", "Text incorrect");
 
     }
-*/
+
     @Test
     public void testPi(){
         var keyPage = homePage.clickKeyPresses();
