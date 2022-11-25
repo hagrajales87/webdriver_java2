@@ -3,6 +3,7 @@ package base;
 import com.google.common.io.Files;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -14,6 +15,8 @@ import utils.WindowManager;
 import java.io.File;
 import java.io.IOException;
 
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.List;
 
 public class BaseTest {
@@ -24,7 +27,9 @@ public class BaseTest {
     @BeforeClass
     public void setup(){
        System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
-        driver = new ChromeDriver();
+        // Create an object of WebDriver class and pass the Chrome Options object as an
+        // argument
+        driver = new ChromeDriver(getChromeOptions());
 
 
         //driver.manage().window().setSize(new Dimension(375, 812));
@@ -45,13 +50,15 @@ public class BaseTest {
         List <WebElement> elements = driver.findElements(By.cssSelector("ul>li"));
         System.out.println(elements.size());
 */
-        System.out.println(driver.getTitle());
-        homePage = new HomePage(driver);
+        goHome();
+        setCookie();
     }
 
     @BeforeMethod
     public void goHome(){
         driver.get("https://the-internet.herokuapp.com/");
+        System.out.println(driver.getTitle());
+        homePage = new HomePage(driver);
     }
 
     @AfterMethod
@@ -76,6 +83,28 @@ public class BaseTest {
 
     public WindowManager getWindowManager(){
         return new WindowManager(driver);
+    }
+
+    private ChromeOptions getChromeOptions(){
+
+        // Create an object of Chrome Options class
+        ChromeOptions options = new ChromeOptions();
+
+        // prevents Chrome from displaying the notification 'Chrome is being controlled
+        // by automated software'
+        options.setExperimentalOption("excludeSwitches", Arrays.asList("enable-automation"));
+
+        //Run the test cases without open the browser
+        /*
+        options.setHeadless(true);
+         */
+
+        return options;
+    }
+
+    private void setCookie(){
+        Cookie cookie = new Cookie.Builder("tau", "123").domain("the-internet.herokuapp.com").build();
+        driver.manage().addCookie(cookie);
     }
 
 /*    public static void main (String args[]){
