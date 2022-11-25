@@ -13,7 +13,7 @@ public class KeysTests extends BaseTest {
         var keyPage = homePage.clickKeyPresses();
         keyPage.clickOnTextBox();
         keyPage.enterText("A" + Keys.BACK_SPACE);
-        assertEquals(keyPage.getResult(), "You entered: BACK_SPACE", "Text incorrect");
+        assertEquals(keyPage.getResult(), "You entered: BACK_SPACE!", "Text incorrect");
 
     }
 
@@ -22,5 +22,6 @@ public class KeysTests extends BaseTest {
         var keyPage = homePage.clickKeyPresses();
         keyPage.clickOnTextBox();
         keyPage.enterPi();
+        assertEquals(keyPage.getResult(), "You entered: BACK_SPACE!", "Text incorrect");
     }
 }
